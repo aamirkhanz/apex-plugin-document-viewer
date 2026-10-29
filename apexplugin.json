@@ -1,0 +1,48 @@
+{
+  "name": "Document Viewer",
+  "version": "1.0",
+  "description": "<p>Preview PDFs, images, text, CSV, JSON, video and audio from a table, with a document list, search, thumbnails, zoom, download and print.</p><p>Source: any region source with one row per document. Map ID and File Name, then Content (BLOB) or URL. MIME Type, Size and Description are optional. PDF: drawn with PDF.js 6.4.299 (included): page navigation, thumbnails, text search with highlighting, selectable text, zoom (fit width, fit page, 100%), rotate. Images: zoom, pan and rotate. Text, CSV (as a table), JSON (formatted), XML, SQL, Markdown and log files: readable preview with search. Video and audio: played in the page. Other types (for example Office files): file card with a download button.</p><p>Requires Oracle APEX 26.2 or later. Documentation, updates and more plug-ins: https://www.techrevx.com</p>",
+  "keywords": [
+    "oracle",
+    "apex",
+    "plugin",
+    "techrevx",
+    "pdf",
+    "document viewer",
+    "preview",
+    "images",
+    "csv",
+    "json",
+    "blob"
+  ],
+  "homepage": "https://github.com/aamirkhanz/apex-plugin-document-viewer",
+  "bugs": {
+    "url": "https://github.com/aamirkhanz/apex-plugin-document-viewer/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "TechRevX",
+    "url": "https://www.techrevx.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aamirkhanz/apex-plugin-document-viewer.git"
+  },
+  "oracle": {
+    "versions": [
+      "19c",
+      "21c",
+      "23ai"
+    ],
+    "apex": {
+      "versions": [
+        "26.2"
+      ],
+      "plugin": {
+        "internalName": "COM.TECHREVX.DOCUMENT_VIEWER",
+        "type": "region",
+        "previewImage": "https://raw.githubusercontent.com/aamirkhanz/apex-plugin-document-viewer/main/screenshots/preview.png"
+      }
+    }
+  }
+}
