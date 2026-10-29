@@ -4,11 +4,14 @@ Preview PDFs, images, text, CSV, JSON, video and audio from a table, with a docu
 
 ![Document Viewer](screenshots/preview.png)
 
+**[Live demo](https://oracleapex.com/ords/r/aamirkhanz/plugins/document-viewer)**: sign in as `demo` with the password `Demo`.
+
 | | |
 |---|---|
 | **Type** | Region plug-in |
 | **Internal name** | `COM.TECHREVX.DOCUMENT_VIEWER` |
 | **Version** | 1.0 |
+| **Live demo** | [oracleapex.com/ords/r/aamirkhanz/plugins/document-viewer](https://oracleapex.com/ords/r/aamirkhanz/plugins/document-viewer) (user `demo`, password `Demo`) |
 | **Requires** | Oracle APEX 26.2 or later |
 | **License** | MIT |
 
