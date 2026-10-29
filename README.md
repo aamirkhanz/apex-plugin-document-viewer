@@ -2,16 +2,15 @@
 
 Preview PDFs, images, text, CSV, JSON, video and audio from a table, with a document list, search, thumbnails, zoom, download and print.
 
-![Document Viewer](screenshots/preview.png)
+[![Live demo](https://img.shields.io/badge/Live_demo-0f7b72?style=for-the-badge)](https://oracleapex.com/ords/r/aamirkhanz/plugins/document-viewer) &nbsp; Sign in as `demo` with the password `Demo`.
 
-**[Live demo](https://oracleapex.com/ords/r/aamirkhanz/plugins/document-viewer)**: sign in as `demo` with the password `Demo`.
+![Document Viewer](screenshots/preview.png)
 
 | | |
 |---|---|
 | **Type** | Region plug-in |
 | **Internal name** | `COM.TECHREVX.DOCUMENT_VIEWER` |
 | **Version** | 1.0 |
-| **Live demo** | [oracleapex.com/ords/r/aamirkhanz/plugins/document-viewer](https://oracleapex.com/ords/r/aamirkhanz/plugins/document-viewer) (user `demo`, password `Demo`) |
 | **Requires** | Oracle APEX 26.2 or later |
 | **License** | MIT |
 
