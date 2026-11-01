@@ -10,7 +10,7 @@ Preview PDFs, images, text, CSV, JSON, video and audio from a table, with a docu
 |---|---|
 | **Type** | Region plug-in |
 | **Internal name** | `COM.TECHREVX.DOCUMENT_VIEWER` |
-| **Version** | 1.0 |
+| **Version** | 1.1 |
 | **Requires** | Oracle APEX 26.2 or later |
 | **License** | MIT |
 

@@ -125,7 +125,8 @@
 
 .tx-DocViewer-page { width: 44px; text-align: center; }
 .tx-DocViewer-search { position: relative; }
-.tx-DocViewer-search > .fa { position: absolute; left: 9px; color: var(--tx-dv-muted); font-size: 13px; pointer-events: none; }
+/* the icon sits inside the field; the stronger selector wins over Font APEX's .fa { position: relative } */
+.tx-DocViewer .tx-DocViewer-search > .fa { position: absolute; left: 9px; z-index: 1; color: var(--tx-dv-muted); font-size: 13px; pointer-events: none; }
 .tx-DocViewer-search input { width: 160px; padding: 0 8px 0 28px; }
 .tx-DocViewer-hits { min-width: 64px; margin-left: 6px; color: var(--tx-dv-muted); font-size: 12px; white-space: nowrap; }
 
